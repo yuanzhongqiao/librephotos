@@ -1,55 +1,52 @@
-[![Discord](https://img.shields.io/discord/784619049208250388?style=plastic)][discord] [![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&style=plastic&up_color=blue&up_message=online&url=https%3A%2F%2Flibrephotos.com)](https://librephotos.com/)
-[![Read the docs](https://img.shields.io/static/v1?label=Read&message=the%20docs&color=blue&style=plastic)](https://docs.librephotos.com/) [![GitHub contributors](https://img.shields.io/github/contributors/librephotos/librephotos?style=plastic)](https://github.com/LibrePhotos/librephotos/graphs/contributors)
-<a href="https://hosted.weblate.org/engage/librephotos/">
-<img src="https://hosted.weblate.org/widgets/librephotos/-/librephotos-frontend/svg-badge.svg" alt="Translation status" />
-</a>
-
-# LibrePhotos
-
-![](https://github.com/LibrePhotos/librephotos/blob/dev/screenshots/mockups_main_fhd.png?raw=true)
-<sub>Mockup designed by rawpixel.com / Freepik</sub>
-
-- **Stable** demo is available here:https://demo1.librephotos.com/ . User is ```demo```, password is ```demo1234``` (with sample images).
-- Latest **development** demo is available here: https://demo2.librephotos.com/ (same user/password)
-- You can watch development videos on [Niaz Faridani-Rad's channel](https://www.youtube.com/channel/UCZJ2pk2BPKxwbuCV9LWDR0w)
-- You can join our [Discord][discord].
-
-## Installation
-
-Step-by-step installation instructions are available in our [documentation](https://docs.librephotos.com/docs/installation/standard-install)
-
-## How to help out
-- ⭐ **Star** this repository if you like this project!
-- 🚀 **Developing**: Get started in less than 30 minutes by following [this guide](https://docs.librephotos.com/docs/development/dev-install).
-- 🗒️ **Documentation**: Improving the documentation is as simple as submitting a pull request [here](https://github.com/LibrePhotos/librephotos.docs)
-- 🧪 **Testing**: If you want to help find bugs, use the ```dev``` tag and update it regularly. If you find a bug, open an issue.
-- 🧑‍🤝‍🧑 **Outreach**: Talk about this project with other people and help them to get started too!
-- 🌐 **Translations**: Make LibrePhotos accessible to more people with [weblate](https://hosted.weblate.org/engage/librephotos/).
-- 💸 [**Donate**](https://github.com/sponsors/derneuere) to the developers of LibrePhotos
-
-## Features
-
-  - Support for all types of photos including raw photos
-  - Support for videos
-  - Timeline view
-  - Scans pictures on the file system
-  - Multiuser support
-  - Generate albums based on events like "Thursday in Berlin"
-  - Face recognition / Face classification
-  - Reverse geocoding
-  - Object / Scene detection
-  - Semantic image search
-  - Search by metadata
-
-## What does it use?
-
-- **Image Conversion:** [ImageMagick](https://github.com/ImageMagick/ImageMagick) 
-- **Video Conversion:** [FFmpeg](https://github.com/FFmpeg/FFmpeg)
-- **Exif Support:** [ExifTool](https://github.com/exiftool/exiftool)
-- **Face detection:** [face_recognition](https://github.com/ageitgey/face_recognition) 
-- **Face classification/clusterization:** [scikit-learn](https://scikit-learn.org/) and [hdbscan](https://github.com/scikit-learn-contrib/hdbscan)
-- **Image captioning:** [im2txt](https://github.com/HughKu/Im2txt), 
-- **Scene classification** [places365](http://places.csail.mit.edu/)
-- **Reverse geocoding:** [Mapbox](https://www.mapbox.com/): You need to have an API key. First 50,000 geocode lookups are free every month.
-
-[discord]: https://discord.gg/xwRvtSDGWb
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a href="https://discord.gg/xwRvtSDGWb" rel="nofollow"><img src="https://camo.githubusercontent.com/a432851fc6538ad91a8ec18271e10622bc7aba91034ccce115890ffe968ed7b5/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3738343631393034393230383235303338383f7374796c653d706c6173746963" alt="不和" data-canonical-src="https://img.shields.io/discord/784619049208250388?style=plastic" style="max-width: 100%;" _mstalt="93990" _msthash="291"></a> <a href="https://librephotos.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/e26fb2c18d8599208fd46d4b18600ed9150ea430b1866109ee2a2d75677978ef/68747470733a2f2f696d672e736869656c64732e696f2f776562736974653f646f776e5f636f6c6f723d6c696768746772657926646f776e5f6d6573736167653d6f66666c696e65267374796c653d706c61737469632675705f636f6c6f723d626c75652675705f6d6573736167653d6f6e6c696e652675726c3d68747470732533412532462532466c6962726570686f746f732e636f6d" alt="网站" data-canonical-src="https://img.shields.io/website?down_color=lightgrey&amp;down_message=offline&amp;style=plastic&amp;up_color=blue&amp;up_message=online&amp;url=https%3A%2F%2Flibrephotos.com" style="max-width: 100%;" _mstalt="95017" _msthash="292"></a>
+<a href="https://docs.librephotos.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/dac7d766db01793042b333048b27d829746c64a719399cc0e93d37f7ad5e27ac/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d52656164266d6573736167653d746865253230646f637326636f6c6f723d626c7565267374796c653d706c6173746963" alt="阅读文档" data-canonical-src="https://img.shields.io/static/v1?label=Read&amp;message=the%20docs&amp;color=blue&amp;style=plastic" style="max-width: 100%;" _mstalt="178048" _msthash="293"></a> <a href="https://github.com/LibrePhotos/librephotos/graphs/contributors"><img src="https://camo.githubusercontent.com/d31714d18168f976a264c6bf7a9e89a57a2693377f4dcc3c626356562cf0e35f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f6c6962726570686f746f732f6c6962726570686f746f733f7374796c653d706c6173746963" alt="GitHub 贡献者" data-canonical-src="https://img.shields.io/github/contributors/librephotos/librephotos?style=plastic" style="max-width: 100%;" _mstalt="392613" _msthash="294"></a>
+<a href="https://hosted.weblate.org/engage/librephotos/" rel="nofollow">
+<img src="https://camo.githubusercontent.com/23c873761de345c2ff597a8230b334ff01467c39a492cdb41e69213bc0306ab9/68747470733a2f2f686f737465642e7765626c6174652e6f72672f776964676574732f6c6962726570686f746f732f2d2f6c6962726570686f746f732d66726f6e74656e642f7376672d62616467652e737667" alt="翻译状态" data-canonical-src="https://hosted.weblate.org/widgets/librephotos/-/librephotos-frontend/svg-badge.svg" style="max-width: 100%;" _mstalt="364117" _msthash="295">
+</a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12573405" _msthash="296">瞬感照片</h1><a id="user-content-librephotos" class="anchor" aria-label="永久链接：LibrePhotos" href="#librephotos" _mstaria-label="473681" _msthash="297"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/LibrePhotos/librephotos/blob/dev/screenshots/mockups_main_fhd.png?raw=true"><img src="https://github.com/LibrePhotos/librephotos/raw/dev/screenshots/mockups_main_fhd.png?raw=true" alt="" style="max-width: 100%;"></a>
+<sub _msttexthash="61782604" _msthash="298">由 rawpixel.com / Freepik 设计的模型</sub></p>
+<ul dir="auto">
+<li><font _mstmutation="1" _msttexthash="436842341" _msthash="299"><strong _mstmutation="1" _istranslated="1">稳定</strong>版演示可在此处获得：<a href="https://demo1.librephotos.com/" rel="nofollow" _mstmutation="1" _istranslated="1">https://demo1.librephotos.com/</a> .用户为 ，密码为 （带有示例图像）。</font><code>demo</code><code>demo1234</code></li>
+<li _msttexthash="312295347" _msthash="300">最新的<strong _istranslated="1">开发</strong> demo 可在此处获得：<a href="https://demo2.librephotos.com/" rel="nofollow" _istranslated="1">https://demo2.librephotos.com/</a> （相同的用户/密码）</li>
+<li _msttexthash="137834151" _msthash="301">您可以在 <a href="https://www.youtube.com/channel/UCZJ2pk2BPKxwbuCV9LWDR0w" rel="nofollow" _istranslated="1">Niaz Faridani-Rad 的频道</a>上观看开发视频</li>
+<li _msttexthash="29114566" _msthash="302">您可以加入我们的 <a href="https://discord.gg/xwRvtSDGWb" rel="nofollow" _istranslated="1">Discord</a>。</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5773755" _msthash="303">安装</h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation" _mstaria-label="519259" _msthash="304"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="71227702" _msthash="305">我们的<a href="https://docs.librephotos.com/docs/installation/standard-install" rel="nofollow" _istranslated="1">文档中</a>提供了分步安装说明</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="16585010" _msthash="306">如何提供帮助</h2><a id="user-content-how-to-help-out" class="anchor" aria-label="永久链接： 如何提供帮助" href="#how-to-help-out" _mstaria-label="529295" _msthash="307"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="154348428" _msthash="308">⭐ 如果您喜欢这个项目，<strong _istranslated="1">请为这个仓库加注星标</strong>！</li>
+<li _msttexthash="111262723" _msthash="309">🚀 <strong _istranslated="1">开发</strong>：按照<a href="https://docs.librephotos.com/docs/development/dev-install" rel="nofollow" _istranslated="1">本指南</a>在 30 分钟内开始使用。</li>
+<li _msttexthash="174870800" _msthash="310">🗒️ <strong _istranslated="1">文档</strong>：改进文档就像<a href="https://github.com/LibrePhotos/librephotos.docs" _istranslated="1">在此处</a>提交拉取请求一样简单</li>
+<li><font _mstmutation="1" _msttexthash="398343309" _msthash="311">🧪 <strong _mstmutation="1" _istranslated="1">测试</strong>：如果您想帮助查找错误，请使用标签并定期更新它。如果您发现 Bug，请打开一个 Issue。</font><code>dev</code></li>
+<li _msttexthash="250715010" _msthash="312">🧑 🤝 🧑 <strong _istranslated="1">外展</strong>：与其他人讨论这个项目，并帮助他们开始！</li>
+<li _msttexthash="114846719" _msthash="313">🌐 <strong _istranslated="1">翻译</strong>：使用 <a href="https://hosted.weblate.org/engage/librephotos/" rel="nofollow" _istranslated="1">weblate</a> 让更多人可以访问 LibrePhotos。</li>
+<li _msttexthash="58200870" _msthash="314">💸 <a href="https://github.com/sponsors/derneuere" _istranslated="1"><strong _istranslated="1">捐赠</strong></a>给 LibrePhotos 的开发者</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5209451" _msthash="315">特征</h2><a id="user-content-features" class="anchor" aria-label="永久链接：功能" href="#features" _mstaria-label="370552" _msthash="316"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="76865308" _msthash="317">支持所有类型的照片，包括 Raw 照片</li>
+<li _msttexthash="14197053" _msthash="318">支持视频</li>
+<li _msttexthash="66727076" _msthash="319">Timeline （时间轴） 视图</li>
+<li _msttexthash="39586677" _msthash="320">扫描文件系统上的图片</li>
+<li _msttexthash="15128334" _msthash="321">多用户支持</li>
+<li _msttexthash="78649480" _msthash="322">根据“Thursday in Berlin”等事件生成相册</li>
+<li _msttexthash="30972344" _msthash="323">人脸识别 / 人脸分类</li>
+<li _msttexthash="20107945" _msthash="324">反向地理编码</li>
+<li _msttexthash="21450078" _msthash="325">对象/场景检测</li>
+<li _msttexthash="19300983" _msthash="326">语义图像搜索</li>
+<li _msttexthash="19480019" _msthash="327">按元数据搜索</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="23432461" _msthash="328">它使用什么？</h2><a id="user-content-what-does-it-use" class="anchor" aria-label="永久链接：它用什么？" href="#what-does-it-use" _mstaria-label="588419" _msthash="329"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="21358649" _msthash="330"><strong _istranslated="1">图像转换：</strong><a href="https://github.com/ImageMagick/ImageMagick" _istranslated="1">ImageMagick</a></li>
+<li _msttexthash="24321687" _msthash="331"><strong _istranslated="1">视频转换：</strong> <a href="https://github.com/FFmpeg/FFmpeg" _istranslated="1">FFmpeg</a></li>
+<li _msttexthash="18924724" _msthash="332"><strong _istranslated="1">Exif 支持：</strong><a href="https://github.com/exiftool/exiftool" _istranslated="1">ExifTool</a></li>
+<li _msttexthash="21817172" _msthash="333"><strong _istranslated="1">人脸检测：</strong><a href="https://github.com/ageitgey/face_recognition" _istranslated="1">face_recognition</a></li>
+<li _msttexthash="42491397" _msthash="334"><strong _istranslated="1">人脸分类/聚类：</strong><a href="https://scikit-learn.org/" rel="nofollow" _istranslated="1">scikit-learn</a> 和 <a href="https://github.com/scikit-learn-contrib/hdbscan" _istranslated="1">hdbscan</a></li>
+<li _msttexthash="35678474" _msthash="335"><strong _istranslated="1">图片字幕：</strong><a href="https://github.com/HughKu/Im2txt" _istranslated="1">im2txt</a>，</li>
+<li _msttexthash="11506586" _msthash="336"><strong _istranslated="1">场景分类</strong> <a href="http://places.csail.mit.edu/" rel="nofollow" _istranslated="1">places365</a></li>
+<li _msttexthash="319729254" _msthash="337"><strong _istranslated="1">反向地理编码：</strong><a href="https://www.mapbox.com/" rel="nofollow" _istranslated="1">Mapbox</a>：您需要有一个 API 密钥。每月前 50,000 次地理编码查找免费。</li>
+</ul>
+</article></div>
